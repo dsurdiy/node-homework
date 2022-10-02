@@ -1,0 +1,24 @@
+{
+  "name": "node-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsurdiy/node-homework.git"
+  },
+  "author": "Dima Surdiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsurdiy/node-homework/issues"
+  },
+  "homepage": "https://github.com/dsurdiy/node-homework#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
