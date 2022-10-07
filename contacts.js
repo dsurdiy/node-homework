@@ -7,6 +7,11 @@ const contactsPath = path.join(__dirname, "db/contacts.json");
 const updateContacts = async (contacts) =>
   await fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2));
 
+/* 
+  У функціях з контактами непогано було б додати try…catch. 
+  Бо там асинхронні функції і було б непогано ловити помилка з файлами. 
+*/
+
 async function listContacts() {
   const contacts = await fs.readFile(contactsPath);
   return JSON.parse(contacts);
